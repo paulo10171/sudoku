@@ -9,7 +9,7 @@ public class SoundTrack {
 	private SoundPool sound;
 	
 	//sounds id's
-	public int idBubbleSound;
+	public int idBubbleSound; //bubble sound
 	
 	public SoundTrack(Context context)
 	{

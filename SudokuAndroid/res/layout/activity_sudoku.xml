@@ -2,20 +2,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.com.xpg.narutosenjuu.sudokuandroid.SudokuActivity" >
+    tools:context="br.com.xpg.narutosenjuu.sudokuandroid.SudokuActivity"
+    android:background="#ffffff" >
 
     <Button
-        android:id="@+id/button2"
-        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/exitGame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
+        android:layout_alignLeft="@+id/newGame"
         android:layout_centerVertical="true"
         android:text="@string/exit_game" />
 
     <Button
-        android:id="@+id/button3"
-        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/continueGame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -24,8 +23,7 @@
         android:text="@string/continue_game" />
 
     <Button
-        android:id="@+id/button1"
-        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/newGame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
