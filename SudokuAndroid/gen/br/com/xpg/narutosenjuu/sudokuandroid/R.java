@@ -20,19 +20,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class color {
         public static final int black_overlay=0x7f050000;
+        public static final int white=0x7f050001;
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
+        public static final int board=0x7f070003;
         public static final int continueGame=0x7f070002;
         public static final int exitGame=0x7f070000;
         public static final int newGame=0x7f070001;
-        public static final int progressBar=0x7f070003;
+        public static final int progressBar=0x7f070004;
     }
     public static final class layout {
         public static final int activity_sudoku=0x7f030000;
-        public static final int load_sudoku_screen=0x7f030001;
+        public static final int board=0x7f030001;
+        public static final int load_sudoku_screen=0x7f030002;
     }
     public static final class raw {
         public static final int bubble=0x7f040000;

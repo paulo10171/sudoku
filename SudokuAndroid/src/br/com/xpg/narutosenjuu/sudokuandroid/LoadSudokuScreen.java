@@ -15,7 +15,7 @@ public class LoadSudokuScreen extends Activity {
 		
 		ProgressBar progressBar = (ProgressBar)findViewById(R.id.progressBar);
 		
-		new LoadSudoku(progressBar).execute(1);
+		new LoadSudoku(this , progressBar).execute(1);
 	}
 
 }
