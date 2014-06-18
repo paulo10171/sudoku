@@ -7,5 +7,18 @@
     <string name="exit_game">Exit Game</string>
     <string name="continue_game">Continue Game</string>
     <string name="new_game">New Game</string>
+    <string name="button_one">1</string>
+    <string name="button_two">2</string>
+    <string name="button_three">3</string>
+    <string name="button_four">4</string>
+    <string name="button_five">5</string>
+    <string name="button_six">6</string>
+    <string name="button_seven">7</string>
+    <string name="button_eight">8</string>
+    <string name="button_nine">9</string>
+    <string name="reset_button">Reset</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="choice_one_option">"Choice one Option : "</string>
+    <string name="end_game">End Game</string>
 
 </resources>

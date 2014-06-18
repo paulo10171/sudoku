@@ -29,7 +29,7 @@ public class SudokuMaker {
 		return guess;
 	}
 
-	public static void makeSudoku(int board[][]) {
+	public static int[][] makeSudoku(int board[][]) {
 
 		boolean guess = false;
 
@@ -47,5 +47,7 @@ public class SudokuMaker {
 
 			System.out.println();
 		}
+		
+		return board;
 	}
 }

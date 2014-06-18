@@ -21,6 +21,14 @@ public class SudokuActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		
 		super.onCreate(savedInstanceState);
+		
+		//get the intent send by BoardActivity
+		Intent intent = getIntent();
+		boolean endGame = intent.getBooleanExtra(Game.END_GAME, false);
+		if(endGame)
+		{
+			finish(); //end the activity
+		}
 
 		setContentView(R.layout.activity_sudoku);
 
@@ -33,13 +41,11 @@ public class SudokuActivity extends Activity {
 				//load the sudoku
 				//SoundTrack sound = new SoundTrack(SudokuActivity.this);
 				//sound.playSound(sound.idBubbleSound, 1);
-				Intent intent = new Intent(SudokuActivity.this,LoadSudokuScreen.class);
+				Intent intent = new Intent(SudokuActivity.this,LoadSudokuActivity.class);
 				startActivity(intent);
 			}
 		});
 		
 	}//end of onCreate
-
-	
 
 }

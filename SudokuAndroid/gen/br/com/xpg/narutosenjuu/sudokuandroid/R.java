@@ -27,26 +27,59 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class id {
         public static final int board=0x7f070003;
+        public static final int button_cancel=0x7f070015;
+        public static final int button_eight=0x7f070011;
+        public static final int button_end_game_end_dialog=0x7f070005;
+        public static final int button_five=0x7f07000d;
+        public static final int button_four=0x7f07000c;
+        public static final int button_new_game_end_dialog=0x7f070004;
+        public static final int button_nine=0x7f070012;
+        public static final int button_one=0x7f070008;
+        public static final int button_reset=0x7f070014;
+        public static final int button_seven=0x7f070010;
+        public static final int button_six=0x7f07000e;
+        public static final int button_three=0x7f07000a;
+        public static final int button_two=0x7f070009;
         public static final int continueGame=0x7f070002;
         public static final int exitGame=0x7f070000;
+        public static final int game_menu=0x7f070006;
         public static final int newGame=0x7f070001;
-        public static final int progressBar=0x7f070004;
+        public static final int progressBar=0x7f070016;
+        public static final int table1=0x7f070007;
+        public static final int table2=0x7f07000b;
+        public static final int table3=0x7f07000f;
+        public static final int table4=0x7f070013;
     }
     public static final class layout {
         public static final int activity_sudoku=0x7f030000;
         public static final int board=0x7f030001;
-        public static final int load_sudoku_screen=0x7f030002;
+        public static final int end_game_dialog=0x7f030002;
+        public static final int game_menu=0x7f030003;
+        public static final int load_sudoku_screen=0x7f030004;
     }
     public static final class raw {
         public static final int bubble=0x7f040000;
     }
     public static final class string {
         public static final int app_name=0x7f060000;
+        public static final int button_cancel=0x7f060010;
+        public static final int button_eight=0x7f06000d;
+        public static final int button_five=0x7f06000a;
+        public static final int button_four=0x7f060009;
+        public static final int button_nine=0x7f06000e;
+        public static final int button_one=0x7f060006;
+        public static final int button_seven=0x7f06000c;
+        public static final int button_six=0x7f06000b;
+        public static final int button_three=0x7f060008;
+        public static final int button_two=0x7f060007;
+        public static final int choice_one_option=0x7f060011;
         public static final int continue_game=0x7f060004;
         public static final int dummy_button=0x7f060001;
         public static final int dummy_content=0x7f060002;
+        public static final int end_game=0x7f060012;
         public static final int exit_game=0x7f060003;
         public static final int new_game=0x7f060005;
+        public static final int reset_button=0x7f06000f;
     }
     public static final class styleable {
         /** 
