@@ -125,12 +125,27 @@ public class LoadSudokuService extends Service {
 		private void setData()
 		{
 			//data for sending
+			
+			System.out.println("Sendind Data : \n");
+			
 			for(int row = 0; row < 9 ; row++)
 			{
 				for(int col = 0; col < 9 ; col++)
 				{
 					data.put("" + row + "" + col , sudokuBoard[row][col]);
-					Log.d("sending : " , "" + sudokuBoard[row][col]);
+					
+					//debug
+					
+					if(col != 8)
+					{
+						//Log.d("sending : " , "" + sudokuBoard[row][col]);
+						System.err.print("" + sudokuBoard[row][col]);
+					}
+					else
+					{
+						System.err.print("" + sudokuBoard[row][col] + "\n");
+					}
+					//end debug
 				}
 			}
 		}
