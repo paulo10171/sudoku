@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/game_menu"
+    android:background="@android:color/black" >
+    
+    <TableRow
+        android:id="@+id/table1" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button 
+            android:id="@+id/button_one"
+            android:text="@string/button_one"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+       		android:layout_height="match_parent"
+       		android:onClick="onClickMenu"/>
+        <Button 
+            android:id="@+id/button_two"
+            android:text="@string/button_two"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+			android:onClick="onClickMenu"/>
+        <Button 
+            android:id="@+id/button_three"
+            android:text="@string/button_three"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:onClick="onClickMenu"/>
+        
+    </TableRow>
+    
+    <TableRow 
+        android:id="@+id/table2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button 
+            android:id="@+id/button_four"
+            android:text="@string/button_four"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+       		android:layout_height="match_parent"
+       		android:onClick="onClickMenu"/>
+        <Button 
+            android:id="@+id/button_five"
+            android:text="@string/button_five"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:onClick="onClickMenu"/>
+        <Button 
+            android:id="@+id/button_six"
+            android:text="@string/button_six"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:onClick="onClickMenu"/>
+        
+    </TableRow>
+    
+    <TableRow 
+        android:id="@+id/table3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <Button 
+            android:id="@+id/button_seven"
+            android:text="@string/button_seven"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+       		android:layout_height="match_parent"
+       		android:onClick="onClickMenu"/>
+        <Button 
+            android:id="@+id/button_eight"
+            android:text="@string/button_eight"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:onClick="onClickMenu"/>
+        <Button 
+            android:id="@+id/button_nine"
+            android:text="@string/button_nine"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:onClick="onClickMenu"/>
+        
+    </TableRow>
+    <TableRow 
+        android:id="@+id/table4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button 
+            android:id="@+id/button_reset"
+            android:text="@string/reset_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+       		android:layout_height="match_parent"
+       		android:onClick="onClickMenu"/>
+
+        <Button
+            android:id="@+id/button_cancel"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1"
+           	android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/button_cancel"
+            android:onClick="onClickMenu" />
+        
+    </TableRow>
+    
+
+</TableLayout>
